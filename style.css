@@ -18,6 +18,54 @@
 body{ 
     background-color: #84E1AD;
 }
+
+header {
+    display: inline-block;
+    background-image: linear-gradient(to top, #103621 25%, #34BB71);
+    max-height: 10%;
+    width: 100%;
+    box-shadow: 0px 3px 5px black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  
+}
+h1.topo{
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.471);
+    text-align: center;
+    font-family: var(--font-destaque);
+    padding-bottom: 25px;
+ 
+ 
+}
+h2.topo{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: var(--font-destaque);
+    color: rgba(255, 252, 252, 0.675);
+    width: 30em;
+    margin: auto;
+    text-shadow: 2px 2px 0px #1b603ac3;
+    padding: 10px 10px 15px 0;
+    
+    
+}
+nav{
+    display: inline-block ;
+    background-color: #103621;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+   
+}
+nav > div{
+    background-color: #103621;
+    display: inline-block; 
+    padding-right: 15px;
+    color: white;
+   
+}
+
 #principal{
    
     margin: 0px auto 20px;
@@ -28,49 +76,11 @@ body{
    
 
 }
-header {
-    display: inline-block;
-    background-image: linear-gradient(to top, #1A5C38 25%, #34BB71);
-    height: 10em;
-    width: 100%;
-    box-shadow: 3px 3px 5px black;
-    padding-top: 30px;
-  
-}
-h1.topo{
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.471);
-    text-align: center;
-    font-family: var(--font-destaque);
-    margin-bottom: 25px;
- 
- 
-}
-    
-
-h2.topo{
-    text-align: center;
-    font-size: 0.7em;
-    font-family: var(--font-destaque);
-    color: rgba(255, 252, 252, 0.675);
-    width: 30em;
-    margin: auto;
-    text-shadow: 2px 2px 0px #1b603ac3;
-    padding: 15px 10px 10px;
-    
-    
-}
-nav > div{
-    display: inline-block;
-    margin: 15px 0 0px 30px;
-    color: white;
-   
-}
 
 main > .main_title{
     font: normal 300 2em 'idroid';
     color: #1C5E3A;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 20px;
     
 }
@@ -186,7 +196,7 @@ ul > li::before{
     margin-right: 10px;
 }
 footer{
-    background-color: #1a5c3881;
+    background-color: #103621;
     color: white;
     max-width: 100%;
     width: 100%;
