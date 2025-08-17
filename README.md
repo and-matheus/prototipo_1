@@ -1,2 +1,1 @@
-# prototipo_1
-Meu primeiro projeto.
+Esse é o meu primeiro projeto (caso não tenha ficado claro!)
